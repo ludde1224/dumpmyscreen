@@ -18,7 +18,7 @@ if not os.path.exists(config_path):
     with open(config_path, "w") as configfile:
         configfile.write("""\
             [DEFAULT]
-            Screenshotfolder = ~/.config/dumpmyscreen/screenshots
+            ScreenshotFolder = ~/.config/dumpmyscreen/screenshots
             CustomString = ""
             ShowInSystray = true
             SelectedRegionCoordinates = ""
