@@ -59,14 +59,16 @@
 
 [Link to AUR](https://aur.archlinux.org/packages/dumpmyscreen)
 
-Pacman:
-```sh
-sudo pacman -S dumpmyscreen
-```
-
 Yay:
 ```sh
 yay -S dumpmyscreen
+```
+
+Build from AUR:
+```sh
+git clone https://github.com/Hibbins/dumpmyscreen.git
+cd dumpmyscreen
+makepkg -si
 ```
 
 ## Usage Guide
