@@ -66,7 +66,7 @@ yay -S dumpmyscreen
 
 Build from AUR:
 ```sh
-git clone https://github.com/Hibbins/dumpmyscreen.git
+git clone https://aur.archlinux.org/dumpmyscreen.git
 cd dumpmyscreen
 makepkg -si
 ```
